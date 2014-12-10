@@ -1,0 +1,13 @@
+---
+layout: default.hbs
+---
+<h1>Posts</h1>
+{{#withSort post 'data.date'}}
+    {{#each this.pages}}
+        {{#markdown}}
+            {{{excerp this.page 2}}}
+        {{/markdown}}
+
+        <a href="{{ replaceStr this.dest 'dist' ''  }}" class="image image-full">Continue reading...</a>
+    {{/each}}
+{{/withSort}}

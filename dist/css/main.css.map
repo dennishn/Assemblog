@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../src/site/assets/scss/main.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAA;EACI,YAAY",
+	"names": []
+}
